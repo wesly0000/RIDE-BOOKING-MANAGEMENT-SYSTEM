@@ -8,10 +8,8 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class Dummy extends JFrame implements ActionListener, MouseListener {
-
     //======================= include panels here ========================
     private JPanel headingPanel, passangerDetailsPanel, rideDetailsPanel, bookRidePanel;
-
     //======================== include components used in the full project =======================
     private ImageIcon logo, carDetails;
     private  JLabel logoLabel, headingTextlabel, tagLineLabel;
